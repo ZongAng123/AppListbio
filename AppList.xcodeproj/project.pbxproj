@@ -15,6 +15,7 @@
 		746001E122C700AA0059C400 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 746001E022C700AA0059C400 /* main.m */; };
 		746001EB22C700AA0059C400 /* AppListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746001EA22C700AA0059C400 /* AppListTests.m */; };
 		746001F622C700AA0059C400 /* AppListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746001F522C700AA0059C400 /* AppListUITests.m */; };
+		7460020522C706380059C400 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7460020422C706380059C400 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		746001F122C700AA0059C400 /* AppListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		746001F522C700AA0059C400 /* AppListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppListUITests.m; sourceTree = "<group>"; };
 		746001F722C700AA0059C400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7460020422C706380059C400 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7460020522C706380059C400 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				746001E922C700AA0059C400 /* AppListTests */,
 				746001F422C700AA0059C400 /* AppListUITests */,
 				746001CF22C700A80059C400 /* Products */,
+				7460020322C706380059C400 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +134,14 @@
 				746001F722C700AA0059C400 /* Info.plist */,
 			);
 			path = AppListUITests;
+			sourceTree = "<group>";
+		};
+		7460020322C706380059C400 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7460020422C706380059C400 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,7 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6A9MKRFMF3;
+				DEVELOPMENT_TEAM = 22FA8WLF42;
 				INFOPLIST_FILE = AppList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,7 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6A9MKRFMF3;
+				DEVELOPMENT_TEAM = 22FA8WLF42;
 				INFOPLIST_FILE = AppList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
